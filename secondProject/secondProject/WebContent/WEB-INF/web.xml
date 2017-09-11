@@ -14,9 +14,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>secondProject</servlet-name>
-        <url-pattern>/welcome.jsp</url-pattern>
-        <url-pattern>/index.jsp</url-pattern>
-        <url-pattern>/welcome.html</url-pattern>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
   
