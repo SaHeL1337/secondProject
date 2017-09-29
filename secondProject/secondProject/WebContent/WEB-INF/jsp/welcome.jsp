@@ -4,20 +4,325 @@
 
 <html>
 <head>
-<title>Spring MVC Tutorial by Crunchify - Hello World Spring MVC
-	Example</title>
-<style type="text/css">
-body {
-	background-image: url('http://crunchify.com/bg.png');
-}
-</style>
+<title>Test Hexagon</title>
+<link href="resources/style.css" rel="stylesheet" />
 </head>
 <body>
-${message}
-<form action="test.html" method="post">
-<input type="text" name="username">
-<input type="password" name="password">
-<input type="submit" value="Send">
-</form>
+	<div class="map grabbable">
+		<div class="even">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>	
+		
+		<div class="uneven">
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+			<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+		
+		<div class="even">
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		<div class="hexagon"><div class="hexContent"></div></div>
+		</div>
+	</div>
 </body>
 </html>

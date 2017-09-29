@@ -1,0 +1,64 @@
+body{
+	background-color: #eee;
+}
+
+.map{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	display: block;
+}
+
+.hexagon {
+  position: relative;
+  width: 40px; 
+  height: 23.09px;
+  background-color: green;
+  margin: 11.55px 0;
+  float: left;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid green;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid green;
+}
+
+.even{
+	clear: both;
+}
+
+.uneven{
+	clear: both;
+	margin-left: -21px;
+}
+
+.grabbable {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+ /* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.grabbable:active { 
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
