@@ -74,6 +74,7 @@ public class EmployeeController {
 		return new ModelAndView("addEmployee", model);
 	}
 	
+	
 	private Employee prepareModel(EmployeeBean employeeBean){
 		Employee employee = new Employee();
 		employee.setEmpAddress(employeeBean.getAddress());

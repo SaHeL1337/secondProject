@@ -6,23 +6,18 @@
   </welcome-file-list>
   
     <servlet>
-        <servlet-name>secondProject</servlet-name>
+        <servlet-name>AWSExample</servlet-name>
         <servlet-class>
             org.springframework.web.servlet.DispatcherServlet
         </servlet-class>
        <init-param>
-            <param-name>contextConfigLocation</param-name><param-value>/WEB-INF/secondProject-servlet.xml</param-value></init-param>
+            <param-name>contextConfigLocation</param-name><param-value>/WEB-INF/AWSExample-servlet.xml</param-value></init-param>
        
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>secondProject</servlet-name>
+        <servlet-name>AWSExample</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-  
-  <resource-env-ref>
-    <resource-env-ref-name>jdbc/secondProject</resource-env-ref-name>
-    <resource-env-ref-type>javax.sql.DataSource</resource-env-ref-type>
-	</resource-env-ref>
   
 </web-app>
